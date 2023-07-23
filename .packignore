@@ -1,0 +1,13 @@
+.minecraft/crash-reports
+.minecraft/hs_err_pid22000.log
+.minecraft/hs_err_pid22000.mdmp
+.minecraft/journeymap
+.minecraft/logs
+.minecraft/mods/forgeautofish-6.0.0-1.20.1.jar
+.minecraft/saves
+.minecraft/screenshots
+.minecraft/servers.dat
+.minecraft/servers.dat_old
+.minecraft/shaderpacks
+.minecraft/usercache.json
+.minecraft/usernamecache.json
