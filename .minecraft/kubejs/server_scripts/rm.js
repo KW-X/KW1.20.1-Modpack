@@ -1,0 +1,15 @@
+
+ServerEvents.recipes(event => { //listen for the "recipes" server event.
+	event.remove({output: 'toms_storage:ts\.open_crate'})
+	event.remove({output: 'toms_storage:ts\.inventory_cable'})
+	event.remove({output: 'toms_storage:ts\.inventory_cable_framed'})
+	event.remove({output: 'toms_storage:ts\.inventory_cable_connector'})
+	event.remove({output: 'toms_storage:ts\.inventory_cable_connector_filtered'})
+	event.remove({output: 'toms_storage:ts\.inventory_cable_connector_framed'})
+	event.remove({output: 'toms_storage:ts\.inventory_proxy'})
+	event.remove({output: 'toms_storage:ts\.inventory_hopper_basic'})
+	event.remove({output: 'toms_storage:ts\.level_emitter'})
+	event.remove({output: 'toms_storage:ts\.item_filter'})
+	event.remove({output: 'toms_storage:ts\.polymorphic_item_filter'})
+	event.remove({output: 'toms_storage:ts\.tag_item_filter'})
+})
